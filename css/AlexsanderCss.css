@@ -41,6 +41,9 @@ section {
 header {
 	background-color: rgb(6, 41, 65);
 	grid-area: h;
+	position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 header ul li {
@@ -75,7 +78,7 @@ header ul li a {
 .d1 {
 	background: rgb(209, 209, 209);
 	grid-area: d1;
-
+	margin-top: 120px;
 	
 	
 }

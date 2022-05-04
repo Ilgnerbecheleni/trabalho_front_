@@ -44,6 +44,9 @@ p:hover {
 header {
     background-color: rgba(6, 41, 65);
     grid-area: h;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 header ul li {
