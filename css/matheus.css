@@ -1,4 +1,5 @@
 /* FORMATAÇÃO INICIAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +43,6 @@ a {
     color: black;
 }
 
-
 .pagina {
     width: 100%;
     height: 100vh;
@@ -65,19 +65,20 @@ a {
     letter-spacing: 2px;
 }
 
-.pagina button {
+.pagina button {}
+
+#button {
     display: inline-block;
-    color: black;
+    color: rgb(252, 246, 246);
     text-decoration: none;
     padding: 10px 30px;
+    letter-spacing: 2px;
     border: 3px solid red;
     border-radius: 6px;
     background: black;
-
 }
 
-.pagina button:hover {
-    /* responsividade do butão */
+#button:hover {
     animation: pulsate 1s ease-in-out;
     background: red;
 }
@@ -94,8 +95,8 @@ a {
 }
 
 
-
 /*FORMATAÇÃO DE TEXTO ABAIXO DA IMG*/
+
 .nerd {
     position: relative;
     text-align: center;
@@ -116,7 +117,9 @@ a {
     border: 5px solid black;
 }
 
+
 /* H3, VIDEO E FOOTER*/
+
 h3 {
     background-color: black;
     color: white;
@@ -144,7 +147,9 @@ footer a:hover {
     transition: 0.3s;
 }
 
+
 /*FORMATAÇÃO GRID CONTAINER*/
+
 .container {
     width: 100%;
     height: 100vh;
