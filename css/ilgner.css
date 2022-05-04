@@ -52,14 +52,12 @@ header {
 header ul li {
     display: inline-block;
     list-style: none;
-    
 }
 
 header ul {
     text-align: right;
     margin-top: -55px;
     margin-right: 20px;
-    
 }
 
 header ul li a {
@@ -68,10 +66,7 @@ header ul li a {
     font-size: 40px;
     padding: 15px;
     text-align: right;
-   
 }
-
-
 
 .cabecalho {
     color: white;
@@ -88,7 +83,6 @@ header ul li a {
 
 .section-1 h1 {
     margin-top: 70px;
-
     margin-right: 30px;
     color: white;
     font-size: 65px;
@@ -100,6 +94,7 @@ header ul li a {
 
 .section-2 {
     grid-area: s2;
+    width: auto;
 }
 
 .section-2 p {
@@ -129,6 +124,7 @@ header ul li a {
 
 .section-3 {
     grid-area: s3;
+    width: auto;
 }
 
 .img-sec3 {
@@ -147,6 +143,7 @@ header ul li a {
 
 .section-4 {
     grid-area: s4;
+    width: auto;
 }
 
 .section-4 h1 {
@@ -160,6 +157,7 @@ header ul li a {
 
 .section-5 {
     grid-area: s5;
+    width: auto;
 }
 
 .img-sec5 {
@@ -178,6 +176,7 @@ header ul li a {
 
 .section-6 {
     grid-area: s6;
+    width: auto;
 }
 
 .section-6 p {
@@ -190,10 +189,11 @@ header ul li a {
 
 .section-7 {
     grid-area: s7;
+    width: auto;
 }
 
 .section-7 h1 {
-    margin-top: 70px;
+    margin-top: 150px;
     color: white;
     font-size: 65px;
     text-align: center;
@@ -204,6 +204,7 @@ header ul li a {
 
 .section-8 {
     grid-area: s8;
+    width: auto;
 }
 
 .title-list-curso {
@@ -233,14 +234,17 @@ header ul li a {
 
 .section-9 {
     grid-area: s9;
+    width: auto;
 }
 
 .section-10 {
     grid-area: s10;
+    width: auto;
 }
 
 .section-11 {
     grid-area: s11;
+    width: auto;
 }
 
 .list-curso {
@@ -251,13 +255,12 @@ header ul li a {
     color: white;
 }
 
-.list-curso li {}
-
 
 /*---------------------------------------------------------------------------------------*/
 
 .section-12 {
     grid-area: s12;
+    width: auto;
 }
 
 .section-12 h1 {
@@ -268,16 +271,18 @@ header ul li a {
 
 .section-13 iframe {
     margin-left: 10%;
-    width: 80vh;
-    height: 80vh;
+    width: 60%;
+    height: 60%;
 }
 
 .section-13 {
     grid-area: s13;
+    width: auto;
 }
 
 .section-14 {
     grid-area: s14;
+    width: auto;
 }
 
 .section-14 p {
@@ -289,6 +294,7 @@ header ul li a {
 
 .section-15 {
     grid-area: s15;
+    width: auto;
 }
 
 .section-15 h1 {
@@ -302,6 +308,7 @@ header ul li a {
     width: 100%;
     height: 50vh;
     grid-area: s16;
+    width: auto;
 }
 
 .tg,
@@ -342,6 +349,7 @@ th:hover {
 
 .section-17 {
     grid-area: s17;
+    width: auto;
 }
 
 .section-17 h1 {
@@ -353,16 +361,18 @@ th:hover {
 
 .section-18 {
     grid-area: s18;
+    width: auto;
 }
 
 .section-18 iframe {
     margin-left: 10%;
-    width: 80vh;
-    height: 75vh;
+    width: 60%;
+    height: 60%;
 }
 
 .section-19 {
     grid-area: s19;
+    width: auto;
 }
 
 .section-19 p {
@@ -374,6 +384,7 @@ th:hover {
 
 .section-20 {
     grid-area: s20;
+    width: auto;
 }
 
 .img-foot {
@@ -406,26 +417,24 @@ footer {
     grid-area: f;
 }
 
-.section-20  ul li {
+.section-20 ul li {
     display: inline-block;
     list-style: none;
 }
 
-.section-20  ul {
+.section-20 ul {
     text-align: right;
     align-items: center;
     margin-right: 30%;
     margin-top: 20%;
-    
 }
 
-.section-20  ul li a {
+.section-20 ul li a {
     text-decoration: none;
     color: white;
     font-size: 40px;
     padding: 15px;
     text-align: right;
-  
 }
 
 footer p {
@@ -435,5 +444,5 @@ footer p {
 }
 
 footer .section-20 {
-   text-align: center;
+    text-align: center;
 }
