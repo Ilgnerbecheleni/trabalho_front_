@@ -33,6 +33,8 @@ section {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     height: 250px;
     background-color: rgb(6, 41, 65);
     grid-area: h;
