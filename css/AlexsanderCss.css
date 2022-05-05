@@ -33,7 +33,7 @@ section {
 }
 
 header {
-    height: 150px;
+    height: 250px;
     background-color: rgb(6, 41, 65);
     grid-area: h;
     position: fixed;
@@ -48,7 +48,7 @@ header ul li {
 
 header ul {
     text-align: right;
-    margin-top: -180px;
+    margin-top: -60px;
     margin-right: 20px;
     align-items: center;
 }
@@ -67,15 +67,14 @@ header .cabecalho {
     font-size: 80px;
     font-family: 'Amatic SC', 'cursive';
     text-transform: uppercase;
-    text-align: left;
-    margin-left: 20%;
+    text-align: center;
     height: 150px;
 }
 
 .d1 {
     background: rgb(209, 209, 209);
     grid-area: d1;
-    margin-top: 250px;
+    margin-top: 450px;
 }
 
 figure {
